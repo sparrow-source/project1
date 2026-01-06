@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: crimson;
+        }
+        section{
+            display: flex;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        section{
+            display: flex;
+        }
+        header{
+            background-color:black;
+            display: flex;
+        }
+        header h1{
+            padding: 20px;
+            width: 40%;
+            color: crimson;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        header nav{
+            width: 55%;
+            text-align: right;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        nav a{
+            text-decoration: none;
+            color: crimson;
+            padding: 25px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        header img{
+            width: 55px;
+            height: 55px;
+            border-radius: 50%;
+            margin: 10px;
+            margin-top: 20px;
+        }
+        nav a:hover{
+            background-color: white;
+            border-radius: 30%;
+        }
+        
+        footer{
+            background-color: crimson;
+            text-align: center;
+            font-size: small;
+            padding: 40px;
+            color: aliceblue;
+        }
+        .Put{
+            background-color: crimson;
+            border-radius: 10px;
+            width: fit-content;
+            color: white;
+            box-shadow: 6px 9px 6px 9px black; /* right down blur spread color */
+            padding: 50px;
+            margin: auto;
+            text-align: left;
+            margin-top: 180px;
+            font-size: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .Hi{
+            font-size: 30px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    </style>
+</head>
+<body style="background: url('IMG/89.jpg');">
+    <header>
+        <a href="index6.html"><img src="/IMG/New F1 logo to be unveiled after Abu Dhabi GP _ Crash.net" alt="F1 logo"></a>
+        <h1>F1 Fan Page</h1>
+        <nav>
+            <a href="index6.html">Home</a>
+            <a href="index 4.html">Types of F1 car</a>
+            <a href="2Index 1.html">About us</a>
+            <a href="3index.html">Contact</a>
+            <a href="idex5.html">Register</a>
+        </nav>
+    </header><br><br>
+
+    <form action="" method="post">
+        <div class="Put">
+            <h1>Register Form</h1>
+            <br>
+        <label for="uname">Username:</label><br>
+        <input type="uname" id="uname" name="uname"><br>
+        <label for="mail">Email:</label><br>
+        <input type="email" id="mail" name="mail"><br>
+        <label for="pwd">Password:</label><br>
+        <input type="password" id="pwd" name="pwd"><br>
+        <label for="cpassword">Confirm Password:</label><br>
+        <input type="password" id="cpassword" name="cpassword"><br>
+        <label for="bdate">Date Of Birth:</label><br>
+        <input type="date" id="bdate" name="bdate"><br>
+        <p>Gender:</p>
+        <!--Radio button-->
+        <input type="radio" id="radio1" name="language" value="Male">
+        <label for="radio1">Male</label>
+        <input type="radio" id="radio2" name="language" value="Female">
+        <label for="radio2">Female</label>
+        <input type="radio" id="radio3" name="language" value="Other">
+        <label for="radio3">Other</label>
+        <div><br>
+            <div class="Hi">
+            <input type="reset" value="Clear">
+            <a href="https://www.formula1.com/en/racing/2025"><input type="submit" value="Register"></div></a><br><br>
+            
+        </div>
+        </div>
+        </form>
+        <br><br><br><br><br><br><br><br><br><br>
+        <footer>
+        <p>Copy right &copy; 2025 | All Right Reserved</p>
+       </footer>
+
+</body>
+</html>
